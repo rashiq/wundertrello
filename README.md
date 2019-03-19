@@ -33,6 +33,8 @@ TRELLO_BOARD_ID="1234"
 TRELLO_WEBHOOK_URL="https://todo.rashiq.me/trello"
 ```
 
+Run `source .env`
+
 # Registering your webhooks
 
 Run `./init_wunderlist_hook.sh` and `./init_trello_hook.sh`
