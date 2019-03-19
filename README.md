@@ -10,7 +10,7 @@ My trello setup might not work for you, so I'd advise you to change it to your l
 
 # Getting started
 
-Create a `.env` file with following variables:
+Create a `.env` file with following variables and then run `source .env`
 
 ``` sh
 # I have a reverse proxy running that serves this through `https://todo.rashiq.me`.
@@ -32,8 +32,6 @@ TRELLO_BOARD_ID="1234"
 # The webhook url you want to receive your trello payload to.
 TRELLO_WEBHOOK_URL="https://todo.rashiq.me/trello"
 ```
-
-Run `source .env`
 
 # Registering your webhooks
 
