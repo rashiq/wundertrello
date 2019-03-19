@@ -4,7 +4,7 @@ curl -X POST -H "Content-Type: application/json" \
 a.wunderlist.com/api/v1/webhooks \
 -d `cat << EOF
 {
-  "list_id": 134237755,
+  "list_id": $WUNDERLIST_LIST_ID,
   "url": "$WUNDERLIST_WEBHOOK_URL",
   "processor_type": "generic",
   "configuration": ""

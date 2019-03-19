@@ -4,7 +4,7 @@ https://api.trello.com/1/tokens/$TRELLO_CLIENT_ID/webhooks/ \
 {
   "key": "$TRELLO_ACCESS_TOKEN",
   "callbackURL": "$TRELLO_WEBHOOK_URL",
-  "idModel":"59e51180274d83e7ca907a34",
+  "idModel":"$TRELLO_BOARD_ID",
   "description": "Wunderlist + Trello Sync"
 }
 EOF
