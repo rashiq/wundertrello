@@ -1,1 +1,1 @@
-ps aux | grep wundertrello |  grep -v grep | awk '{print }' | xargs kill -9
+ps aux | grep wundertrello |  grep -v grep | awk '{print $2}' | xargs kill -9
