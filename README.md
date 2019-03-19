@@ -5,7 +5,7 @@ It does this by registering a webhook for wunderlist and trello.
 It automatically applys due dates and sorts items into the right trello board.
 My trello setup might not work for you, so I'd advise you to change it to your liking by configuring the logic in the `app.py` file.
 
-**This merely exists because I didn't want to pay for a premium account for IFTTT.**
+**This merely exists because I didn't want to pay for a premium IFTTT account.**
 
 
 # Getting started
