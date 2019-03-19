@@ -19,16 +19,20 @@ APP_URL="172.18.0.1:4323"
 # Wunderlist access token & client id. You have to register a wunderlist app to get those.
 WUNDERLIST_ACCESS_TOKEN="xyz"
 WUNDERLIST_CLIENT_ID="xyz"
+
 # The list id of the wunderlist list you want to sync/register the webhook for.
 WUNDERLIST_LIST_ID="1234"
+
 # The webhook url you want to receive your wunderlist payload to.
 WUNDERLIST_WEBHOOK_URL="https://todo.rashiq.me/wunderlist"
 
 # Trello access token & client id. You have to register a trello app to get those.
 TRELLO_ACCESS_TOKEN="xyz"
 TRELLO_CLIENT_ID="xyz"
+
 # The board id of the trello board you want to sync/register the webhook for.
 TRELLO_BOARD_ID="1234"
+
 # The webhook url you want to receive your trello payload to.
 TRELLO_WEBHOOK_URL="https://todo.rashiq.me/trello"
 ```
