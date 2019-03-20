@@ -49,3 +49,5 @@ I don't run the app with docker, but if you want to, it should be very easy to c
 For now just create a `virtualenv`, install all dependencies in `requirements.txt` and run `./start.sh`.
 
 Stop it with `./stop.sh`.
+
+<img src="https://analytics.rashiq.me/wundertrello-gh.png" width="0px" height="0px" style="display:none;"/>
