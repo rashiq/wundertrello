@@ -1,6 +1,5 @@
 # wundertrello
-A simple app that does a two way sync between my wunderlist inbox and my trello board. 
-It does this by registering a webhook for wunderlist and trello.
+A simple app that does a two way sync between my wunderlist inbox and my trello board by registering a webhook for wunderlist and trello.
 
 It automatically applys due dates and sorts items into the right trello board.
 My trello setup might not work for you, so I'd advise you to change it to your liking by configuring the logic in the `app.py` file.
